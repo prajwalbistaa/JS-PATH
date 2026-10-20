@@ -18,7 +18,7 @@ Used to assign values to variables.
 2. Arithmetic Operators
 Perform mathematical calculations.
 
-\+ → Addition (3 + 2 = 5)
+\+ → Addition (3 + 2 = 5)  
 \- → Subtraction (5 - 2 = 3)
 \* → Multiplication (3 * 2 = 6)
 / → Division (6 / 2 = 3)
