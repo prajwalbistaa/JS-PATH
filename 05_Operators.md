@@ -6,13 +6,13 @@ JavaScript operators are special symbols used to perform operations on values an
 1. Assignment Operators  
 Used to assign values to variables.  
   
-= → Assigns a value (x = 5)  
-+= → Adds and assigns (x += 2 → x = x + 2)  
--= → Subtracts and assigns (x -= 2)  
-*= → Multiplies and assigns (x *= 2)  
-/= → Divides and assigns (x /= 2)  
-%= → Remainder and assigns (x %= 2)  
-**= → Exponentiation and assigns (x **= 2)  
+    = → Assigns a value (x = 5)  
+    += → Adds and assigns (x += 2 → x = x + 2)  
+    -= → Subtracts and assigns (x -= 2)  
+    *= → Multiplies and assigns (x *= 2)  
+    /= → Divides and assigns (x /= 2)  
+    %= → Remainder and assigns (x %= 2)  
+    **= → Exponentiation and assigns (x **= 2)  
   
   
 2. Arithmetic Operators  
