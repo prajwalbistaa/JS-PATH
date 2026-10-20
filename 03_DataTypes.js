@@ -51,7 +51,3 @@ console.log(greet("Alice")); // Output: Hello, Alice!
 
 
 //Other Data Types also include Date, RegExp, Map, Set, etc.
-
-
-//Important Function to check the type of a variable is typeof operator
-console.log(typeof num);
