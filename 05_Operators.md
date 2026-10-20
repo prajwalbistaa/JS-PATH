@@ -18,48 +18,48 @@ Used to assign values to variables.
 2. Arithmetic Operators  
 Perform mathematical calculations.  
   
-\+ → Addition (3 + 2 = 5)  
-\- → Subtraction (5 - 2 = 3)  
-\* → Multiplication (3 * 2 = 6)  
-/ → Division (6 / 2 = 3)  
-% → Modulus (remainder) (5 % 2 = 1)  
-** → Exponentiation (2 ** 3 = 8)  
-++ → Increment (x++ or ++x)  
--- → Decrement (x-- or --x)  
+    \+ → Addition (3 + 2 = 5)  
+    \- → Subtraction (5 - 2 = 3)  
+    \* → Multiplication (3 * 2 = 6)  
+    / → Division (6 / 2 = 3)  
+    % → Modulus (remainder) (5 % 2 = 1)  
+    ** → Exponentiation (2 ** 3 = 8)  
+    ++ → Increment (x++ or ++x)  
+    -- → Decrement (x-- or --x)  
   
   
 3. Comparison Operators  
 Return true or false based on conditions.  
   
-== → Equal to (loose, type conversion allowed)  
-=== → Strict equal (no type conversion)  
-!= → Not equal  
-!== → Strict not equal  
-\> → Greater than  
-< → Less than  
-\>= → Greater than or equal  
-<= → Less than or equal  
+    == → Equal to (loose, type conversion allowed)  
+    === → Strict equal (no type conversion)  
+    != → Not equal  
+    !== → Strict not equal  
+    \> → Greater than  
+    < → Less than  
+    \>= → Greater than or equal  
+    <= → Less than or equal  
   
   
 4. Logical Operators  
 Used for combining conditions.  
   
-&& → AND (true && false → false)  
-|| → OR (true || false → true)  
-! → NOT (!true → false)  
-?? → Nullish coalescing (returns right-hand operand if left is null or undefined)  
+    && → AND (true && false → false)  
+    || → OR (true || false → true)  
+    ! → NOT (!true → false)  
+    ?? → Nullish coalescing (returns right-hand operand if left is null or undefined)  
   
   
 5. Bitwise Operators  
 Work on binary representations of numbers.  
   
-& → AND  
-| → OR  
-^ → XOR  
-~ → NOT  
-<< → Left shift  
-\>> → Right shift  
-\>>> → Unsigned right shift  
+    & → AND  
+    | → OR  
+    ^ → XOR  
+    ~ → NOT  
+    << → Left shift  
+    \>> → Right shift  
+    \>>> → Unsigned right shift  
   
   
 6. Other Useful Operators  
