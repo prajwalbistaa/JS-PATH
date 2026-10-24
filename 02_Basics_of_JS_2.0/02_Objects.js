@@ -33,6 +33,3 @@ console.log(person); // Output: { name: "Alice", age: 31, city: "New York", coun
 delete person.city;
 delete person["job title"];
 console.log(person); // Output: { name: "Alice", age: 31, country: "USA" }
-
-
-// Object methods
