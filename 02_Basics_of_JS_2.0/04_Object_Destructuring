@@ -1,0 +1,19 @@
+// Object Destructuring in JS
+
+/* Allows to extract values from objects and assign them to variables in a more concise and readable way.
+   It provides a convenient syntax for unpacking properties from objects into distinct variables.
+   Commonly used when a property of an object needs to be accessed multiple times. */
+
+
+const course = {
+    coursename: "JS Foundations",
+    price: "999",
+    courseInstructor: "Node"
+}
+
+const {coursename, price, courseInstructor} = course
+console.log(courseInstructor); // Output: "Node" [Without needing to write course.courseInstructor]
+
+//Also another way to destructure the object and assign a new variable name to the property.
+const {courseInstructor: instructor} = course
+console.log(instructor); // Output: "Node" 
