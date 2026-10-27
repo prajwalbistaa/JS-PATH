@@ -26,27 +26,28 @@ function chai(){
 }
 chai()
 
+
 // "this" in Arrow Function
-const chair = function () {
+const chair = () => {
     let username = "hritik"
     console.log(this.username); // Output: undefined [In an arrow function, "this" is lexically bound, meaning it takes the value of "this" from the surrounding context. In this case, it refers to the global object (window in browsers, global in Node.js). In strict mode, "this" is undefined.]
 }
 chair()
 
-// const addTwo = (num1, num2) => {
-//     return num1 + num2
-// }
-
-// const addTwo = (num1, num2) =>  num1 + num2
-
-// const addTwo = (num1, num2) => ( num1 + num2 )
-
-// const addTwo = (num1, num2) => ({username: "hitesh"})
 
 
-// console.log(addTwo(3, 4))
+// Arrow Function in JS
+
+const addTwo = (num1, num2) => {
+    return num1 + num2
+}
+console.log(addTwo(3, 4)) // Output: 7
 
 
-// const myArray = [2, 5, 3, 7, 8]
+// Arrow Function with Implicit Return
 
-// myArray.forEach()
+const addTwoImplicit = (num1, num2) =>  num1 + num2 // Without curly braces and return keyword
+console.log(addTwoImplicit(3, 4)) // Output: 7
+
+const getUserName = () => ({username: "hritik"}) // Returning an object from an arrow function requires wrapping in parentheses.
+console.log(getUserName()); // Output: { username: 'hritik' }
