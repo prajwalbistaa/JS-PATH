@@ -35,3 +35,6 @@ const myObject = {
 Object.entries(myObject).forEach(([key, value]) => {
     console.log(`${key} shortcut is for ${value}`);
 });
+
+
+// Note: The forEach() method in JavaScript always returns undefined so filter(), map(), reduce() are used to return a new array or value.
