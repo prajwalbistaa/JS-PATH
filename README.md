@@ -1,3 +1,3 @@
 # JAVASCRIPT FOUNDATIONS
 
-Basics of JS in One Place
+Basics of JS
