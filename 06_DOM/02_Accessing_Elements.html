@@ -1,0 +1,44 @@
+<!-- Accessing Elements -->
+
+<!--
+- getElementById() - Retrieves an element by its id.
+- getElementsByClassName() - Returns a collection of elements with a specified class.
+- getElementsByTagName() - Selects elements by their tag name.
+- querySelector() - Returns the first element matching a CSS selector.
+- querySelectorAll() - Returns all elements matching a CSS selector.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="myDiv" class="myClass">Hello World!</div>
+    <div class="myClass">Hello Again!</div>
+    <div class="myClass">Hello Once More!</div>
+<script>
+    // Accessing an element by its ID
+    const elementById = document.getElementById('myDiv');
+    console.log('Element by ID:', elementById.textContent);
+
+    // Accessing allelements by their class name
+    const elementsByClassName = document.getElementsByClassName('myClass');
+    console.log('Elements by Class Name:', elementsByClassName.item(0).textContent);
+    // Accessing all elements by their tag name
+    const elementsByTagName = document.getElementsByTagName('div');
+    console.log('Elements by Tag Name:', elementsByTagName.item(2).textContent); 
+
+    // Accessing the first element matching a CSS selector
+    const firstElementBySelector = document.querySelector('.myClass');
+    console.log('First Element by Selector:', firstElementBySelector.textContent);
+
+    // Accessing all elements matching a CSS selector
+    const allElementsBySelector = document.querySelectorAll('.myClass');
+    console.log('All Elements by Selector:', allElementsBySelector.textContent);
+</script>
+</body>
+</html>
